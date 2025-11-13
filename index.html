@@ -1,0 +1,567 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="Wave Is An High Quality C2 With High Power" name="description">
+  <meta content="free stresser, Wave C2, top stresser, stressthem, stress them, stress denial of service, dos, stresser app,booter,ip stresser, stresser, booter, ddos tool, ddos attack, ddos attack online, layer7 ddos, layer4 ddos, api, api access, network stresser, network booter, slowloris, best Booter, best stresser, strongest stresser, powerful booter, ddoser, ddos, gbooter, top booter, ipstress, booter, stresser, network stresser, network booter, #Booter, BROWSER, captcha bypass, drdos,ssyn, dns amplification" name="keywords">
+  <meta content="https://waveservices.xyz" name="application-url">
+  <meta content="ethone top" name="application-name">
+  <meta content="index, follow" name="robots">
+
+  <meta property="og:title" content="Wave" />
+  <meta property="og:description" content="Professional DDoS testing platform with advanced bypass methods" />
+  <meta property="og:url" content="https://waveservices.xyz" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Wave" />
+  <meta name="theme-color" content="#04578d">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Wave</title>
+  
+<style>
+* {margin:0; padding:0; box-sizing:border-box;}
+
+body {
+    background-color: #0a0e1a;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.glow-orb {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.4;
+    z-index: 0;
+    pointer-events: none;
+    animation: float-glow 20s ease-in-out infinite;
+}
+
+.glow-1 {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, #04578d 0%, transparent 70%);
+    top: 10%;
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.glow-2 {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, #04578d 0%, transparent 70%);
+    top: 50%;
+    right: 10%;
+    animation-delay: -7s;
+}
+
+.glow-3 {
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(circle, #04578d 0%, transparent 70%);
+    bottom: 20%;
+    left: 30%;
+    animation-delay: -14s;
+}
+
+@keyframes float-glow {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    33% {
+        transform: translate(50px, -50px) scale(1.1);
+    }
+    66% {
+        transform: translate(-30px, 30px) scale(0.9);
+    }
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.main-section {
+    min-height:100vh; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    align-items:center; 
+    position:relative;
+    padding-top: 100px;
+}
+
+.main-heading {
+    font-size:5.5rem; 
+    font-weight:900; 
+    text-align:center; 
+    letter-spacing:1px;
+    margin-bottom: 20px;
+    background: linear-gradient(180deg, #ffffff 0%, #04578d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.features-text {
+    color: #04578d;
+    font-size:0.9rem; 
+    font-weight:bold; 
+    text-align:center; 
+    letter-spacing:0.3em; 
+    margin:10px 0 30px;
+    text-shadow: 0 0 20px #04578d;
+}
+
+.auth-button {
+    background: linear-gradient(135deg, #04578d 0%, #6366f1 100%);
+    color:white; 
+    border:none; 
+    padding:14px 45px; 
+    font-size:1rem; 
+    font-weight:bold; 
+    border-radius:50px; 
+    cursor:pointer; 
+    overflow:hidden; 
+    transition: all 0.3s ease; 
+    position:relative; 
+    letter-spacing:0.5px;
+    box-shadow: 0 8px 32px #04578d;
+}
+
+.auth-button::before {
+    content:''; 
+    position:absolute; 
+    top:0; 
+    left:-100%; 
+    width:100%; 
+    height:100%; 
+    background:linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); 
+    transition:left 0.6s ease;
+}
+
+.auth-button:hover::before {left:100%;}
+.auth-button:hover {
+    box-shadow: 0 8px 40px #04578d;
+    transform: translateY(-2px);
+}
+
+.image-container {
+    width:90%; 
+    max-width:1200px; 
+    margin-top:60px;
+}
+
+.image-wrapper {
+    position:relative; 
+    width:100%;
+    border-radius:20px;
+    overflow:hidden;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        0 0 60px rgba(139, 92, 246, 0.2);
+}
+
+.dashboard-image {
+    width:100%; 
+    height:auto; 
+    display:block; 
+    border-radius:20px;
+}
+
+.image-wrapper::before {
+    content:''; 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    right:0; 
+    height:30%; 
+    background: linear-gradient(180deg, rgba(139, 92, 246, 0.1) 0%, transparent 100%); 
+    pointer-events:none;
+    z-index: 1;
+}
+
+.image-wrapper::after {
+    content:''; 
+    position:absolute; 
+    bottom:0; 
+    left:0; 
+    right:0; 
+    height:40%; 
+    background: linear-gradient(0deg, #0a0e1a 0%, transparent 100%); 
+    pointer-events:none;
+    z-index: 1;
+}
+
+.about-section {
+    padding:120px 40px;
+    display:flex;
+    justify-content:center;
+    position: relative;
+}
+
+.about-container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1200px;
+    width:100%;
+    gap:50px;
+}
+
+.about-heading {
+    font-size:4rem;
+    font-weight:900;
+    flex:1;
+    text-align:left;
+    background: linear-gradient(180deg, #ffffff 0%, #04578d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.about-text {
+    flex:2;
+    font-size:1.1rem;
+    line-height:1.8;
+    color:#d1d5db;
+    text-align:right;
+    background: rgba(17, 20, 41, 0.4);
+    backdrop-filter: blur(10px);
+    padding:30px;
+    border-radius:15px;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width:900px){
+    .about-container {
+        flex-direction:column;
+        text-align:center;
+    }
+    .about-heading, .about-text {
+        text-align:center;
+    }
+    .main-heading {
+        font-size: 3rem;
+    }
+}
+
+.plans-section {
+    min-height:100vh; 
+    padding:150px 20px 100px 20px; 
+    display:flex; 
+    flex-direction:column; 
+    align-items:center;
+    position: relative;
+}
+
+.plans-heading {
+    font-size:4rem; 
+    font-weight:900; 
+    margin-bottom:50px; 
+    text-align:center;
+    background: linear-gradient(180deg, #ffffff 0%, #04578d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.plans-box {
+    background: rgba(17, 20, 41, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 50px 40px;
+    border-radius: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:40px;
+    max-width: 1200px;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.plan-card {
+    background: rgba(17, 20, 41, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius:20px;
+    padding:40px 30px 30px 30px;
+    width:300px;
+    text-align:center;
+    position:relative;
+    border: 1px solid #04578d;
+    transition: all 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-8px);
+    border-color: #04578d;
+    box-shadow: 0 20px 60px #04578d;
+}
+
+.plan-name {
+    font-size:1.8rem; 
+    font-weight:900; 
+    margin-bottom:10px;
+}
+
+.plan-price {
+    font-size:2rem; 
+    font-weight:bold; 
+    margin:30px 0 25px;
+    background: linear-gradient(135deg, #04578d 0%, #04578d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.plan-details {
+    font-size:0.95rem; 
+    line-height:1.8; 
+    margin-bottom:30px;
+}
+
+.plan-details span {
+    display:flex; 
+    align-items:center; 
+    gap:8px; 
+    justify-content:flex-start;
+}
+
+.check {
+    color:#4ade80; 
+    font-weight:bold;
+}
+
+.cross {
+    color:#f87171; 
+    font-weight:bold;
+}
+
+.ribbon {
+    width: 160px; 
+    height: 160px; 
+    overflow: hidden; 
+    position: absolute; 
+    top: -10px; 
+    right: -10px;
+}
+
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 12px 0;
+    background: linear-gradient(135deg, #04578d 0%, #04578d 100%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-align: center;
+    transform: rotate(45deg);
+    top: 30px;
+    right: -55px;
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.5);
+}
+
+.purchase-button {
+    background: linear-gradient(135deg, #04578d 0%, #04578d 100%);
+    border:none;
+    padding:12px 35px;
+    border-radius:50px;
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+    color:white;
+    position:relative;
+    overflow:hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
+}
+
+.purchase-button::before {
+    content:''; 
+    position:absolute; 
+    top:0; 
+    left:-100%; 
+    width:100%; 
+    height:100%;
+    background:linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition:left 0.6s ease;
+}
+
+.purchase-button:hover::before {left:100%;}
+.purchase-button:hover {
+    box-shadow: 0 6px 30px #04578d;
+    transform: translateY(-2px);
+}
+
+@media(max-width:1000px){
+    .plans-box{flex-direction:column; align-items:center;}
+}
+
+.footer {
+    background: rgba(17, 20, 41, 0.6);
+    backdrop-filter: blur(10px);
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    bottom:0;
+    width:100%;
+    border-top: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.footer-left {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.footer-left img {
+    width:35px;
+    height:35px;
+}
+
+.footer-left span {
+    font-size:1.3rem;
+    font-weight:bold;
+}
+
+.footer-right a {
+    margin-left:20px;
+    color:#d1d5db;
+    text-decoration:none;
+    font-weight:600;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.footer-right a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #04578d, #04578d);
+    transition: width 0.3s ease;
+}
+
+.footer-right a:hover {
+    color:#04578d;
+}
+
+.footer-right a:hover::after {
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+<div class="glow-orb glow-1"></div>
+<div class="glow-orb glow-2"></div>
+<div class="glow-orb glow-3"></div>
+
+<div class="content">
+    <section class="main-section">
+        <h1 class="main-heading">Wave Services</h1>
+        <div class="features-text">F A S T, ‎  S E C U R E, ‎  R E L I A B L E,</div>
+        <button class="auth-button" onclick="window.location.href='https://t.me/waveservices2'">Get Started</button>
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img src="wavebanner.png" alt="Wave Dashboard Interface" class="dashboard-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-container">
+            <h2 class="about-heading">About Us</h2>
+            <p class="about-text">
+                Welcome to Wave Services here you can find really good deals with insane power.
+                We offer you the experience that you never had before with a clean dashboard.
+                Everything being secure, best methods, best bypass techniques, and much more.
+                Wave has been in this community for a little over a year, but our platform is growing rapidly.
+                Our team is still looking forward to upgrading Wave and will inform you
+            </p>
+        </div>
+    </section>
+
+    <section class="plans-section">
+        <h2 class="plans-heading">Available Plans</h2>
+        <div class="plans-box">
+            <div class="plan-card">
+                <div class="plan-name">Basic Plan</div>
+                <div class="plan-price">$15 / mo</div>
+                <div class="plan-details">
+                    <span><span class="check">✔</span> 1 Concurrent's</span>
+                    <span><span class="check">✔</span> 15s Cooldown</span>
+                    <span><span class="check">✔</span> 60s Attack Time</span>
+                    <span><span class="check">✔</span> VIP Network</span>
+                </div>
+                <button class="purchase-button" onclick="window.location.href='https://t.me/wavecservices2'">Purchase</button>
+            </div>
+
+            <div class="plan-card">
+                <div class="ribbon"><span>Most Popular</span></div>
+                <div class="plan-name">Pro Plan</div>
+                <div class="plan-price">$20 / mo</div>
+                <div class="plan-details">
+                    <span><span class="check">✔</span> 2 Concurrent's</span>
+                    <span><span class="check">✔</span> 10s Cooldown</span>
+                    <span><span class="check">✔</span> 120s Attack Time</span>
+                    <span><span class="check">✔</span> VIP Network</span>
+                </div>
+                <button class="purchase-button" onclick="window.location.href='https://t.me/wavecservices2'">Purchase</button>
+            </div>
+
+            <div class="plan-card">
+                <div class="plan-name">Extreme Plan</div>
+                <div class="plan-price">$25 / mo</div>
+                <div class="plan-details">
+                    <span><span class="check">✔</span> 3 Concurrent's</span>
+                    <span><span class="check">✔</span> 5s Cooldown</span>
+                    <span><span class="check">✔</span> 180s Attack Time</span>
+                    <span><span class="check">✔</span> VIP Network</span>
+                </div>
+                <button class="purchase-button" onclick="window.location.href='https://t.me/wavecservices2'">Purchase</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="favicon.png" alt="Wave Logo">
+            <span>Wave</span>
+        </div>
+        <div class="footer-right">
+            <a href="https://discord.gg/uam" target="_blank">Discord</a>
+            <a href="https://t.me/wavecservices2" target="_blank">Telegram</a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
