@@ -5,8 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wave Services</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta content="Wave Is An High Quality C2 With High Power" name="description">
   <meta content="free stresser, Wave C2, top stresser, stressthem, stress them, stress denial of service, dos, stresser app,booter,ip stresser, stresser, booter, ddos tool, ddos attack, ddos attack online, layer7 ddos, layer4 ddos, api, api access, network stresser, network booter, slowloris, best Booter, best stresser, strongest stresser, powerful booter, ddoser, ddos, gbooter, top booter, ipstress, booter, stresser, network stresser, network booter, #Booter, BROWSER, captcha bypass, drdos,ssyn, dns amplification" name="keywords">
-  <style>
+  <meta content="https://waveservices.xyz" name="application-url">
+  <meta content="wave" name="application-name">
+  <meta property="og:title" content="Wave" />
+  <meta property="og:description" content="Professional DDoS testing platform with advanced bypass methods" />
+  <meta property="og:url" content="https://waveservices.xyz" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Wave" />
+  <meta name="theme-color" content="#04578d">
+  <link rel="icon" type="image/png" href="wave.jpg">  <style>
+    
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
@@ -34,7 +44,6 @@
     .delay-2 { animation-delay: 0.4s; }
     @keyframes fadeInScale { from { opacity: 0; transform: scale(0.8); } to { opacity: 1; transform: scale(1); } }
 
-    /* Hero section */
     .hero-section { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 140px 20px 100px; position: relative; overflow: visible; z-index: 1; }
     .hero-section::before {
       content: '';
@@ -64,7 +73,6 @@
       box-shadow: 0 0 50px rgba(0, 212, 255, 0.4), inset 0 0 25px rgba(0, 212, 255, 0.15);
     }
 
-    /* Plans section */
     .plans-section { padding: 120px 20px; position: relative; z-index: 1; background: transparent; }
     .plans-title { text-align: center; font-size: 2.5rem; margin-bottom: 60px; background: linear-gradient(90deg, #00d4ff, #00a0ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     .plan-tabs { display: flex; justify-content: center; gap: 20px; margin-bottom: 60px; flex-wrap: wrap; }
@@ -87,7 +95,6 @@
     .plan a { display: inline-block; background: linear-gradient(135deg, #00c4ff 0%, #009dff 100%); color: #fff; text-decoration: none; padding: 14px 40px; border-radius: 12px; cursor: pointer; font-size: 1rem; font-weight: 700; box-shadow: 0 8px 25px rgba(0, 180, 255, 0.4); transition: all 0.3s ease; border: none; text-transform: uppercase; letter-spacing: 0.5px; }
     .plan a:hover { transform: scale(1.08); box-shadow: 0 12px 40px rgba(0, 180, 255, 0.7); }
 
-    /* Reviews section */
     .reviews-section { padding: 120px 20px; position: relative; margin: 0; background: transparent; }
     .reviews-title { text-align: center; font-size: 2.5rem; margin-bottom: 60px; background: linear-gradient(90deg, #00d4ff, #00a0ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     .reviews { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; max-width: 1400px; margin: 0 auto; }
@@ -101,7 +108,6 @@
 
     footer { text-align: center; padding: 80px 20px; font-size: 0.9rem; opacity: 0.7; margin: 0; border-top: 1px solid rgba(0, 212, 255, 0.15); background: transparent; }
 
-    /* Bubble effects */
     .bubble-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: -2; overflow: hidden; }
     .bubble { position: absolute; border-radius: 50%; background: rgba(0, 212, 255, 0.1); width: 6px; height: 6px; bottom: -10px; opacity: 0; animation: rise linear infinite; }
     @keyframes rise { from { transform: translateY(0); opacity: 0; } to { transform: translateY(-100vh); opacity: 0.6; } }
@@ -266,8 +272,8 @@ function handleMouseMove(e) {
   const rect = this.getBoundingClientRect();
   const x = e.clientX - rect.left;
   const y = e.clientY - rect.top;
-  const rotateY = ((x / rect.width) - 0.5) * 30; // horizontal tilt
-  const rotateX = ((y / rect.height) - 0.5) * -30; // vertical tilt
+  const rotateY = ((x / rect.width) - 0.5) * 30;
+  const rotateX = ((y / rect.height) - 0.5) * -30;
   this.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.08)`;
 }
 
